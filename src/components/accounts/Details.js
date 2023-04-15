@@ -61,12 +61,10 @@ const Details = ({ account }) => {
 export default Details
 
 const Wrapper = styled.div`
-  .details-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border-top: 1px solid var(--grey-50);
-    padding-top: 1rem;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid var(--grey-50);
+  padding-top: 1rem;
 
   .detail {
     display: grid;

@@ -5,8 +5,8 @@ import styled from 'styled-components'
 const AccountsList = () => {
   return (
     <Wrapper>
-      {accounts.map((account) => {
-        return <AccountCard account={account} />
+      {accounts.map((account, index) => {
+        return <AccountCard key={index} account={account} />
       })}
     </Wrapper>
   )
