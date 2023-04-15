@@ -331,3 +331,12 @@ ul {
 input:focus {
   outline: none;
 }
+
+/* Pages */
+
+.page-wrap {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: var(--grey-600);
+}
