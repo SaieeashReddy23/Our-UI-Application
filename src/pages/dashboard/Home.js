@@ -3,8 +3,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import { testing, testingthunk } from '../../features/user/userSlice'
 
 const Home = () => {
-  const dispatch = useDispatch()
-  const { isLoading, user } = useSelector((store) => store.user)
+  // const dispatch = useDispatch()
+  // const { isLoading, user } = useSelector((store) => store.user)
 
   // useEffect(() => {
   //   console.log(`isLoading : ${isLoading} and user : ${JSON.stringify(user)} `)
@@ -12,6 +12,10 @@ const Home = () => {
   //   dispatch(testingthunk({ name: 'Ka Paul' }))
   // }, [])
 
-  return <div>Home</div>
+  return (
+    <div className="page-wrap">
+      <h1>Home Page not yet implemented</h1>
+    </div>
+  )
 }
 export default Home

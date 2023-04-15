@@ -1,4 +1,8 @@
 const BankStatements = () => {
-  return <div>BankStatements</div>
+  return (
+    <div className="page-wrap">
+      <h1>BankStatement not yet implemented</h1>
+    </div>
+  )
 }
 export default BankStatements

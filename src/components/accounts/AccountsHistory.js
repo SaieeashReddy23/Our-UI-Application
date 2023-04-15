@@ -1,4 +1,8 @@
 const AccountsHistory = () => {
-  return <div>AccountsHistory</div>
+  return (
+    <div className="page-wrap">
+      <h1>Accounts History not yet implemented</h1>
+    </div>
+  )
 }
 export default AccountsHistory
